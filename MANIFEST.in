@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include iiq_check_connect *.css
+recursive-include iiq_check_connect *.csv
+recursive-include iiq_check_connect *.html
+recursive-include iiq_check_connect *.ico
+recursive-include iiq_check_connect *.js
+recursive-include iiq_check_connect *.json
+recursive-include iiq_check_connect *.md
+recursive-include iiq_check_connect *.png
+recursive-include iiq_check_connect *.py
+recursive-include iiq_check_connect *.svg
+recursive-include iiq_check_connect *.txt
+recursive-exclude iiq_check_connect *.pyc
