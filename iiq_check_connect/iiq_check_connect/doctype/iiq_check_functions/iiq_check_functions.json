@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-12 21:36:58.684655",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "prepare_export"
+ ],
+ "fields": [
+  {
+   "description": "Prepare the xlsx file in a new \"iiQ-Check Export\", which can later be uploaded to iiQ-Check for further processing.",
+   "fieldname": "prepare_export",
+   "fieldtype": "Button",
+   "label": "Prepare Export",
+   "options": "prepare_export"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-15 09:00:31.008966",
+ "modified_by": "Administrator",
+ "module": "Iiq Check Connect",
+ "name": "iiQ-Check Functions",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "iiQ-Check Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-10 14:32:11.393244",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "einheit_kategorie"
+ ],
+ "fields": [
+  {
+   "fieldname": "einheit_kategorie",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Einheit Kategorie",
+   "options": "Einheit Kategorie"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-10 14:32:11.393244",
+ "modified_by": "Administrator",
+ "module": "Iiq Check Connect",
+ "name": "iiQ-Check Export Einheit Kategorie",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

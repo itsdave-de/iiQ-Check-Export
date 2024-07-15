@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-10 14:24:41.847858",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_settings_section",
+  "enable_job",
+  "enable_ftp_export",
+  "export_days_after_departure",
+  "export_hour",
+  "filter_settings_section",
+  "einheit_kategorie",
+  "kundentyp",
+  "ftp_export_settings_section",
+  "ftp_server",
+  "ftp_port",
+  "ftp_path",
+  "ftp_user",
+  "ftp_password",
+  "use_secure_ftp",
+  "language_settings_section",
+  "default_language",
+  "language_mapping"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_settings_section",
+   "fieldtype": "Section Break",
+   "label": "General Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_ftp_export",
+   "fieldtype": "Check",
+   "label": "Enable FTP Export"
+  },
+  {
+   "fieldname": "ftp_export_settings_section",
+   "fieldtype": "Section Break",
+   "label": "FTP Export Settings"
+  },
+  {
+   "fieldname": "filter_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Filter Settings"
+  },
+  {
+   "fieldname": "kundentyp",
+   "fieldtype": "Table MultiSelect",
+   "label": "Kundentyp",
+   "options": "iiQ-Check Export Kundentyp",
+   "reqd": 1
+  },
+  {
+   "fieldname": "einheit_kategorie",
+   "fieldtype": "Table MultiSelect",
+   "label": "Einheit Kategorie",
+   "options": "iiQ-Check Export Einheit Kategorie",
+   "reqd": 1
+  },
+  {
+   "fieldname": "export_days_after_departure",
+   "fieldtype": "Int",
+   "label": "Export Days After Departure"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_job",
+   "fieldtype": "Check",
+   "label": "Enable Job"
+  },
+  {
+   "description": "Full hour (0-23), on which the generation and upload should happen.",
+   "fieldname": "export_hour",
+   "fieldtype": "Int",
+   "label": "Export Hour"
+  },
+  {
+   "fieldname": "ftp_server",
+   "fieldtype": "Data",
+   "label": "Server"
+  },
+  {
+   "fieldname": "ftp_user",
+   "fieldtype": "Data",
+   "label": "User"
+  },
+  {
+   "fieldname": "ftp_password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "ftp_path",
+   "fieldtype": "Data",
+   "label": "Path"
+  },
+  {
+   "fieldname": "ftp_port",
+   "fieldtype": "Int",
+   "label": "Port"
+  },
+  {
+   "default": "0",
+   "fieldname": "use_secure_ftp",
+   "fieldtype": "Check",
+   "label": "Use Secure FTP"
+  },
+  {
+   "fieldname": "language_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Language Settings"
+  },
+  {
+   "description": "Gets applied, if none of the following country codes matches.",
+   "fieldname": "default_language",
+   "fieldtype": "Data",
+   "label": "Default Language",
+   "length": 5
+  },
+  {
+   "fieldname": "language_mapping",
+   "fieldtype": "Table",
+   "label": "Language Mapping",
+   "options": "iiQ-Check Language Mapping"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-15 10:01:23.415770",
+ "modified_by": "Administrator",
+ "module": "Iiq Check Connect",
+ "name": "iiQ-Check Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "iiQ-Check Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

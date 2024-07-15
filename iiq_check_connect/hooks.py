@@ -129,23 +129,14 @@ app_license = "GPLv3"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"iiq_check_connect.tasks.all"
-#	],
-#	"daily": [
-#		"iiq_check_connect.tasks.daily"
-#	],
-#	"hourly": [
-#		"iiq_check_connect.tasks.hourly"
-#	],
-#	"weekly": [
-#		"iiq_check_connect.tasks.weekly"
-#	],
-#	"monthly": [
-#		"iiq_check_connect.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+	"hourly": [
+		"iiq_check_connect.tools.hourly_job"
+	]
+}
+
+
+
 
 # Testing
 # -------

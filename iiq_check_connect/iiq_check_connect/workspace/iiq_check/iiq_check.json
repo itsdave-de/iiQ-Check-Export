@@ -1,0 +1,68 @@
+{
+ "charts": [
+  {
+   "chart_name": "iiQ-Check Exported Contacts",
+   "label": "Exported Contacts"
+  }
+ ],
+ "content": "[{\"id\":\"YlwdaJpX9a\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">iiQ-Check</span>\",\"col\":12}},{\"id\":\"8zhAqSOJMj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MItC97Fb_p\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Exported Contacts\",\"col\":12}},{\"id\":\"-6UrooJWQ1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"M6D4_gnX3A\",\"type\":\"card\",\"data\":{\"card_name\":\"iiQ-Check\",\"col\":4}},{\"id\":\"Z6qZ8sTqCc\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"iiQ-Check Export\",\"col\":4}}]",
+ "creation": "2024-07-12 21:28:45.452006",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "quality-3",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "iiQ-Check",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "iiQ-Check",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Functions",
+   "link_count": 0,
+   "link_to": "iiQ-Check Functions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 0,
+   "link_to": "iiQ-Check Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-12 21:55:17.937050",
+ "modified_by": "Administrator",
+ "module": "Iiq Check Connect",
+ "name": "iiQ-Check",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "iiQ-Check Export",
+   "label": "iiQ-Check Export",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "iiQ-Check"
+}

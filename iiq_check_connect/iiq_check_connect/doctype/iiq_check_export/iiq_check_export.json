@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "IIQEXP-.#####",
+ "creation": "2024-07-11 00:14:41.670283",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "created_on",
+  "departure_date",
+  "number_of_recipients",
+  "xlsx_file",
+  "statistics"
+ ],
+ "fields": [
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Created on"
+  },
+  {
+   "fieldname": "departure_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Departure Date"
+  },
+  {
+   "fieldname": "number_of_recipients",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Number Of Recipients"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "new\nprepared\nexported\nfailed"
+  },
+  {
+   "fieldname": "statistics",
+   "fieldtype": "Text Editor",
+   "label": "Statistics"
+  },
+  {
+   "fieldname": "xlsx_file",
+   "fieldtype": "Attach",
+   "label": "XLSX File"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-15 09:00:21.400191",
+ "modified_by": "Administrator",
+ "module": "Iiq Check Connect",
+ "name": "iiQ-Check Export",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "iiQ-Check Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
