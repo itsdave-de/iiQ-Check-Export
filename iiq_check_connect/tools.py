@@ -112,6 +112,9 @@ def prepare_export(interactive=False):
         # Apply the mapping function to the "language" column
         df["language"] = df["language"].apply(map_language)
 
+        # Add departure_at column using start_date_str
+        df["departure_at"] = start_of_day.strftime('%Y-%m-%d')
+
         # Save the DataFrame to a BytesIO object
         output = io.BytesIO()
         df.to_excel(output, index=False)
